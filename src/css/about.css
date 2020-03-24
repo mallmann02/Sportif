@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700&display=swap');
+
+#aboutTeam{
+    background-color: rgb(121, 185, 105);
+    height: 500px;
+    width: 100%;
+    position: relative;
+    font-family: 'Baloo 2', cursive;
+}
+
+#punhobol{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.articles {
+    display: inline-flex;
+    position: relative;
+    font-size: 18px;
+    color: rgb(19, 18, 17);
+    height: 250px; 
+    margin-left: 40px; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+#aboutTeam article {
+   background-color: rgb(245, 241, 241);
+   border-radius: 5px;
+   color: rgb(33, 36, 32);
+   width: 370px;
+   
+   position: relative;
+}
+
+.articles article + article {
+   margin-left: 40px;
+}
+
+.articles #equipe_apres{
+    position: relative;
+}
+
+.articles #equipe_apres + article{
+    margin-left: 60px;
+}
+
+#equipe_apres #punhoLogo{
+    position: absolute;
+}
+
+#punhoLogo{
+    margin: 0px;
+    margin-left: -90px;
+    padding: 0px;
+    width: 170px;
+    border-radius: 5px;
+    border: 2px solid rgb(248, 242, 242);
+}
+
+#equipe_apres h1{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.articles article h1{
+    position: absolute;
+    font-size: 22px;
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 95px;
+    color: black;
+ }
+
+ .articles article h2{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 95px;
+ }
+
+article img {
+    margin-top: 7px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -170px;
+}
+
+.articles div + div{
+    padding: 120px;
+}
+
+.articles p{
+    margin-left: -20px;
+}
+
+#about_sup {
+    background-image: linear-gradient(to bottom, rgb(221, 210, 210), rgb(121, 185, 105) 100%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 42px;
+    height: 200px;
+}
+
+.articles #activity h1{
+    position: relative;
+    
+}
