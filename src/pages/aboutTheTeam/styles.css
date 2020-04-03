@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700&display=swap');
 
-#aboutTeam{
+.aboutTeam{
     background-color: rgb(121, 185, 105);
     height: 500px;
     width: 100%;
@@ -9,7 +9,7 @@
     font-family: 'Baloo 2', cursive;
 }
 
-#punhobol{
+.punhobol{
     position: relative;
     padding-bottom: 10px;
 }
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-#aboutTeam article {
+.aboutTeam article {
    background-color: rgb(245, 241, 241);
    border-radius: 5px;
    color: rgb(33, 36, 32);
@@ -46,11 +46,11 @@
     margin-left: 60px;
 }
 
-#equipe_apres #punhoLogo{
+.equipe_apres .punhoLogo{
     position: absolute;
 }
 
-#punhoLogo{
+.punhoLogo{
     margin: 0px;
     margin-left: -90px;
     padding: 0px;
@@ -59,7 +59,7 @@
     border: 2px solid rgb(248, 242, 242);
 }
 
-#equipe_apres h1{
+.equipe_apres h1{
     font-size: 42px;
     color: rgb(255, 255, 255);
     margin-top: -12px;

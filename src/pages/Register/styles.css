@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 
-#aside_bar{
+.aside_bar{
     background-color: rgb(221, 210, 210);
     position: block;
     width: 100%;
@@ -83,4 +83,36 @@ aside form button[type=submit] {
 
 aside form button[type=submit]:hover{
     background: #1ccc5f;
+}
+
+.aside_bar .tb_4{
+    position: absolute;
+    text-align: left;
+    margin-left: 1045px;
+    margin-top: -20px;
+}
+
+.aside_bar .tb_3{
+    position: absolute;
+    text-align: left;
+    margin-left: 755px;
+    margin-top: -20px;
+}
+
+.aside_bar .tb_1{
+    position: absolute;
+    text-align: left;
+    margin-left: 410px;
+    margin-top: -20px;
+}
+
+.msg{
+    text-align: left;
+    color: honeydew;
+    background-color: rgb(13, 149, 3);
+    position: relative;
+    margin-top: -40px;
+    margin-left: 0px;
+    font-size: 42px;
+    font-family: 'Baloo 2', cursive;
 }
