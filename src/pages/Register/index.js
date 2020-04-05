@@ -2,13 +2,21 @@ import React, {useState} from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import './styles.css';
+import './stylesAside.css';
+import './stylesTopBar.css';
 
 export default function Register(){
     
     return(
+<div className="menu">
+     
+        <li> <a>Entrar </a> </li>
+        <li> <a>Entrar </a> </li>
+        <li> <a>Entrar </a> </li>
+        <li> <a>Entrar </a> </li> 
 
 <div className="aside_bar">
-    
+
     <aside>
         <strong>Inscreva-se</strong>
         <form>
@@ -54,6 +62,7 @@ export default function Register(){
       </textbox>
       </ul>
 
+    </div>
     </div>
     );
 }
