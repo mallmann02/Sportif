@@ -10,10 +10,10 @@ export default function Register(){
     return(
 <div className="menu">
      
-        <li> <a>Entrar </a> </li>
-        <li> <a>Entrar </a> </li>
-        <li> <a>Entrar </a> </li>
-        <li> <a>Entrar </a> </li> 
+        <li><Link className="back-link" to="/AboutTheTeam">Conheça o time</Link></li>
+        <li> <Link className="back-link" to="/">Conheça o time</Link> </li>
+        <li> <Link className="back-link" to="/">Conheça o time</Link> </li>
+        <li> <Link className="back-link" to="/">Conheça o time</Link> </li> 
 
 <div className="aside_bar">
 
