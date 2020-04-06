@@ -20,7 +20,7 @@ export default function Register(){
         <div className="register-container">
            <div className="content">
                 <section>
-                    <img src={ifLogo} width="420" alt="be the hero"/>
+                    <img src={ifLogo} width="450" alt="be the hero"/>
 
                     <h1>Inscreva-se</h1>
                     <p>Faça sua inscrição e fique atento às datas de realização dos testes.</p>

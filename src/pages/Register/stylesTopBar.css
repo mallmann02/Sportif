@@ -22,11 +22,6 @@
         margin-left: 7px;
     }
     
-    .menu ul{
-        margin-left: 0px;
-        padding-bottom: 200px;
-    }
-    
     .menu li a{color:rgb(253, 251, 251); font-size:16px; border-radius: 10%; transition: background 0.5s; font-family: Roboto, sans-serif; text-decoration:none; padding:5px 10px; display:flex;}
      
     .menu li a:hover{
