@@ -3,7 +3,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 import { Link, useHistory } from 'react-router-dom';
 
 import './styles.css';
-import './stylesTopBar.css';
+import '../../topBar/stylesTopBar.css';
 
 import ifLogo from '../../images/ifLogo.png';
 
@@ -11,11 +11,11 @@ export default function Register(){
     
     return(
 <div className="menu">
-     
-        <li> <Link className="topBar-link" to="/AboutTheTeam">Conheça o time</Link> </li>
+
+        <li> <Link className="topBar-link" to="/">Home</Link> </li>
+        <li> <Link className="topBar-link" to="/AboutTheTeam">Equipes</Link> </li>
+        <li> <Link className="topBar-link" to="/">Increva-se</Link> </li>
         <li> <Link className="topBar-link" to="/">Conheça o time</Link> </li>
-        <li> <Link className="topBar-link" to="/">Conheça o time</Link> </li>
-        <li> <Link className="topBar-link" to="/">Conheça o time</Link> </li> 
 
         <div className="register-container">
            <div className="content">
