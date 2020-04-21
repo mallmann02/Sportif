@@ -5,51 +5,33 @@
 
 .title{
     color: white;
-    display: flex;
-    flex-direction: row;
+    background-color: rgb(54, 119, 223);
+    padding: 20px;
     font-size: 42px;
+    
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 /**   MAIN   **/
 
 .main{
     display: flex;
+    height: 500px;
     flex-direction: row;
     position: relative;
-    margin-left: 30px;
-    margin-top: 60px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .msg{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-left: 30px;
-}
+    width: 400px;
+    height: 100%;
+    background-color: rgba(5, 28, 105, 0.904);
 
-.players{
-    display: flex;
-    flex-direction: row;
-
-}
-
-.players group{
-    padding-right: 20px;
-}
-
-.players container{
-    background-color: rgb(26, 74, 230);
-    width: 190px;
-    height: 210px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 /**    MAIN    **/
@@ -106,7 +88,7 @@
 
 .places h1{
     color: white;
-    background-color: rgb(5, 28, 105);
+    background-color: #062b80e7;
     font-size: 42px;
 
     margin-top: -20px;
@@ -155,4 +137,14 @@ container h2{
     color: rgb(0, 0, 0);
     font-size: 14px;
     text-align: center;
+}
+
+@media(max-width:900px){
+    .galery, .places{
+        flex-direction: column;
+    }
+
+    .field{
+       margin-bottom: 50px; 
+    }
 }
