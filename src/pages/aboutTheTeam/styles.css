@@ -22,17 +22,30 @@
     height: 500px;
     flex-direction: row;
     position: relative;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
 }
 
 .msg{
-    width: 400px;
+    width: 20%;
     height: 100%;
     background-color: rgba(5, 28, 105, 0.904);
 
+    display: flex;
+    align-items: center;
 }
+
+.msg text{
+    color:white;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 140%;
+
+    margin-left: 30px;
+}
+
+
 
 /**    MAIN    **/
 

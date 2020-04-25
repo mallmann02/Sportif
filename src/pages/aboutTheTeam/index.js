@@ -9,7 +9,7 @@ import ifsul_field from '../../images/ifsul_field.jpg';
 import ifsul_gym from '../../images/ifsul_gym.jpg';
 
 export default function AboutTeam(){
-    
+  
     return(
        <div className="corpo">
          <header className="title">
@@ -22,9 +22,11 @@ export default function AboutTeam(){
          <div className="main">
 
             <div className="msg">
-              
+              <text>Mudando a passagem <br/> de cada <br/> estudante.</text>
              
             </div>
+
+            
 
           </div>
 
