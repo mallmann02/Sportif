@@ -38,20 +38,22 @@ export default function AboutTeam(){
           <div className="places">
 
           <div className="field">
+            
             <img
               src={ifsul_field}
               width="600"
-              height="300"
+             
             />
 
             <h1>Quadra Poliesportiva</h1>
+
           </div>
 
           <div className="gym">
             <img
               src={ifsul_gym}
               width="600"
-              height="300"
+              
             />
 
             <h1>Academia</h1>
