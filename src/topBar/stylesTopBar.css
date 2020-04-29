@@ -15,8 +15,8 @@
 }
     
     .menu group{
-        float: right;
-        position: relative;
+        right: 20px;
+        position: absolute;
 
         display: flex;
         flex-direction: row;

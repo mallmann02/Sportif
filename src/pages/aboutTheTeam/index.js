@@ -14,6 +14,7 @@ export default function AboutTeam(){
     return(
        <div className="corpo">
          <div className="menu">
+         
           <li> <Link className="topBar-link" to="/">Home</Link> </li>
         <li> <Link className="topBar-link" to="/AboutTheTeam">Equipes</Link> </li>
         <li> <Link className="topBar-link" to="/">Increva-se</Link> </li>
