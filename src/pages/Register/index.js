@@ -10,12 +10,15 @@ import ifLogo from '../../images/ifLogo.png';
 export default function Register(){
     
     return(
-<div className="menu">
+<div className="corpo">
 
+    <div className="menu">
         <li> <Link className="topBar-link" to="/">Home</Link> </li>
         <li> <Link className="topBar-link" to="/AboutTheTeam">Equipes</Link> </li>
         <li> <Link className="topBar-link" to="/">Increva-se</Link> </li>
         <li> <Link className="topBar-link" to="/">Conheça o time</Link> </li>
+    </div>
+
 
         <div className="register-container">
            <div className="content">
