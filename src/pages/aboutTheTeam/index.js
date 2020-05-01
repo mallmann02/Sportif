@@ -13,6 +13,8 @@ export default function AboutTeam(){
   
     return(
        <div className="corpo">
+         
+         
          <div className="menu">
          
           <li> <Link className="topBar-link" to="/">Home</Link> </li>
@@ -26,6 +28,7 @@ export default function AboutTeam(){
            <h1>Vôlei Masculino</h1>
           </group>
          
+         <div className="menu-overlay"></div>
          </div>
 
          
