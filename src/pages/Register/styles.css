@@ -3,7 +3,7 @@
     max-width: 1210px;
     position: relative;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 40px;
     margin-bottom: 10px;
 
     display: flex;
@@ -25,7 +25,14 @@
 
 .register-container .content section {
     width: 100%;
+    margin-right: 20px;
     max-width: 380px;
+}
+
+.register-container .content section img{
+    position: relative;
+    width: 100%;
+    min-width: 331px;
 }
 
 .register-container .content section h1{
@@ -42,6 +49,7 @@
 .register-container .content form {
     width: 100%;
     max-width: 450px;
+    min-width: 280px;
 }
 
 .register-container .content form input{

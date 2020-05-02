@@ -3,6 +3,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 import { Link, useHistory } from 'react-router-dom';
 
 import './styles.css';
+import './responsive-media.css';
 import '../../topBar/stylesTopBar.css';
 
 import ifLogo from '../../images/ifLogo.png';
@@ -23,7 +24,7 @@ export default function Register(){
         <div className="register-container">
            <div className="content">
                 <section>
-                    <img src={ifLogo} width="450" alt="be the hero"/>
+                    <img src={ifLogo} alt="be the hero"/>
 
                     <h1>Inscreva-se</h1>
                     <p>Faça sua inscrição e fique atento às datas de realização dos testes.</p>

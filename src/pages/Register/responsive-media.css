@@ -1,0 +1,14 @@
+@media (max-width: 800px){
+    
+    
+    
+    .register-container .content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .register-container .content section{
+        display: flex;
+        flex-direction: column;
+    }
+}
