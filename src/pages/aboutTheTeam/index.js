@@ -8,6 +8,7 @@ import '../../topBar/stylesTopBar.css';
 import voleiLogo from '../../images/voleiLogo.png';
 import ifsul_field from '../../images/ifsul_field.jpg';
 import ifsul_gym from '../../images/ifsul_gym.jpg';
+import ifsul_team from '../../images/ifsul_team.jpg';
 
 export default function AboutTeam(){
   
@@ -31,6 +32,40 @@ export default function AboutTeam(){
          <div className="menu-overlay"></div>
          </div>
 
+         <div className="div-hero">
+            <container className="div-hero-container">
+              <div className="div-hero-container-text">
+                
+                <textbox className="div-hero-container-text-phrase">
+                 <p>sua jornada de experiências no IF</p>  
+                 <p className="div-hero-container-text-phrase-contrast">passa por aqui!</p>
+                </textbox>
+              
+
+                <textbox className="div-hero-container-text-citation"> 
+                  <p>
+                  “A vontade de se preparar tem que ser maior do que a vontade de vencer. 
+                  Vencer será consequência da boa preparação.”<br/><br/>
+                  -Bernardinho
+                  </p>
+                </textbox>
+
+                <button className="button" type="submit">
+                        Inscreva-se
+                </button>
+              </div>
+
+              <div className="div-hero-container-image">
+                <img
+                src={ifsul_team}
+                />
+
+              </div>
+
+            </container> 
+
+          </div>
+         
          
          <div className="main">
 
@@ -46,7 +81,7 @@ export default function AboutTeam(){
           
           
           <div className="galery">
-                <h1>Our <br/> Spaces</h1>
+                <h1>Nossos <br/> Espaços</h1>
 
           <div className="places">
 
@@ -74,7 +109,6 @@ export default function AboutTeam(){
           </div>
 
           </div>
-
          
        </div>
     );
