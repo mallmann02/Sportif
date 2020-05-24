@@ -294,7 +294,13 @@
     
 }
 
-
+.div-testimonials-container-testimony{
+    position: relative;
+    
+    
+    
+    height: 50%;
+}
 
 
 /** Testimonials**/
