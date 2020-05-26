@@ -10,6 +10,7 @@ import ifsul_field from '../../images/ifsul_field.jpg';
 import ifsul_gym from '../../images/ifsul_gym.jpg';
 import ifsul_team from '../../images/ifsul_team.jpg';
 import estudante from '../../images/estudante.png';
+import ifsul_team2 from '../../images/ifsul_team2.jpg';
 
 
 export default function AboutTeam(){
@@ -52,14 +53,16 @@ export default function AboutTeam(){
                   </p>
                 </textbox>
 
-                <button className="button" type="submit">
-                        Inscreva-se
-                </button>
+                <Link to="/">
+                  <button className="button" type="submit">
+                          Inscreva-se
+                  </button>
+                </Link>
               </div>
 
               <div className="div-hero-container-image">
                 <img
-                src={ifsul_team}
+                src={ifsul_team2}
                 />
 
               </div>
@@ -99,10 +102,40 @@ export default function AboutTeam(){
               </container>
 
               <container className="div-testimonials-container">
+                
+                <section className="div-testimonials-container-identification">
+                  <img 
+                  src={estudante}
+                  />
+
+                  <p className="div-testimonials-container-identification-name"> Aluno da Silva</p>
+
+                  <p className="div-testimonials-container-identification-entryDate"> Ingressante de 2017 </p>
+                </section>
+
+                <section className="div-testimonials-container-testimony">
+                  <p> "Sempre gostei de tecnologia desde pequeno e vendo a demanda do mercado atual, decidi que queria trabalhar na área. 
+                   Acabei de sair do ensino médio técnico e vi na Trybe a oportunidade para me transformar em um ótimo profissional."</p>
+                </section>
 
               </container>
 
               <container className="div-testimonials-container">
+                
+                <section className="div-testimonials-container-identification">
+                  <img 
+                  src={estudante}
+                  />
+
+                  <p className="div-testimonials-container-identification-name"> Aluno da Silva</p>
+
+                  <p className="div-testimonials-container-identification-entryDate"> Ingressante de 2017 </p>
+                </section>
+
+                <section className="div-testimonials-container-testimony">
+                  <p> "Sempre gostei de tecnologia desde pequeno e vendo a demanda do mercado atual, decidi que queria trabalhar na área. 
+                   Acabei de sair do ensino médio técnico e vi na Trybe a oportunidade para me transformar em um ótimo profissional."</p>
+                </section>
 
               </container>
 

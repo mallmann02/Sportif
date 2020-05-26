@@ -235,6 +235,7 @@
     
     position: relative;
     width: 80%;
+    height: 100%;
 
     grid-template-columns: repeat(auto-fit, 22%);
 }
@@ -242,13 +243,14 @@
 .div-testimonials-container{
     display: flex;
     flex-direction: column;
-
+    
     padding: 10px;
 
     align-items: center;
 
     height: 88.2%;
 
+    font-size: 14px;
     background-color: rgba(5, 28, 105, 0.904);
 }
 
@@ -265,7 +267,7 @@
 
     margin-top: 0px;
     width: 65%;
-    height: 41%;
+    height: 35%;
 }
 
 .div-testimonials-container-identification-name{
@@ -284,24 +286,24 @@
 
 .div-testimonials-container-identification img{
     width: 50%;
-    height: 50%;
+    height: 55%;
     
     border-radius: 100%;
 
     position: relative;
 
     margin-top: -30px;
-    
+    margin-bottom: 10px;
 }
 
 .div-testimonials-container-testimony{
     position: relative;
     
-    
-    
-    height: 50%;
-}
+    font-size: 1.4em;
+    text-align: center;
 
+    height: fit-content;
+}
 
 /** Testimonials**/
 
@@ -313,13 +315,52 @@
 /** RESPONSIVIDADE **/
 
 @media(max-width:1500px){
-    .main{
-        height: 350px;
-    }
+/**HERO**/
+
     
+    
+    
+    
+/** div-testimonials**/
+
+    .main{
+        height: 420px;
+    }
+
     .msg text{
         font-size: 42px;
+
+        line-height: 150%;
     }
+
+    .div-testimonials{
+        grid-template-columns: repeat(auto-fit, 28%);
+    }
+
+    .div-testimonials-container{
+        height: 90%;
+    }
+
+    .div-testimonials-container-identification{
+        height: 32%;
+
+        width: 60%;
+    }
+    
+    .div-testimonials-container-identification img{
+        height: 65%;
+        margin-bottom: 5px;
+
+        width: 50%;
+    }
+
+    .div-testimonials-container-testimony{
+        font-size: 1.3em;
+    }
+    
+/**div-testimonials**/
+
+/**Galery**/
 
     .galery{
         height: 400px;
@@ -336,5 +377,8 @@
     .places img, .field, .gym{
         width: 475px;
     }
+
+/**Galery**/
+
 
 }
