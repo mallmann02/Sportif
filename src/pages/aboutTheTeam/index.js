@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import './styles.css';
+import './styles-hero_div.css';
+import './styles-testimonials_div.css';
 import '../../global.css';
 import '../../topBar/stylesTopBar.css';
 
