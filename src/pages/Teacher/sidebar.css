@@ -1,0 +1,64 @@
+#app{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 30vw;
+    height: 100vh;
+    background: #FFF;
+}
+
+#teacher-id{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px 20px;
+}
+
+#teacher-info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#teacher-img{
+    position: relative;
+    width: 90px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+#teacher-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#teacher-interactivity{
+    margin-top: 50px;
+}
+
+aside button {
+    width: 100%;
+    text-align: left;
+    height: 70px;
+    border: 0;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(110, 95, 95);
+    cursor: pointer;
+    transition: background 0.5s;   
+}
+
+aside button text{
+    margin-left: 7px;
+}
+
+aside button:hover{
+    background: #5063b9;
+    color: #FFF;
+}

@@ -7,6 +7,7 @@ body{
 
 html, body, #root{
     height: 100%;
+    width: 100%;
 }
 
 *{
@@ -58,11 +59,11 @@ button {
      text-decoration: none;
      font-size: 18px;
      line-height: 60px;
-     transition: filter 0.5s;
+     transition: filter 0.3s;
  }
  
  .button:hover {
-     filter: brightness(90%);
+     filter: brightness(120%);
  }
  
  .back-link {

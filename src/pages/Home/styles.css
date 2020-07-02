@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #fff;
+    
+    padding: 50px;
+}
+
+#hero-presentation_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    position: relative;
+    
+    width: 500px;
+}
+
+#hero-presentation_group-text{
+    font-size: 30px;
+    text-align: center;
+
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+
+    padding-top: 30px;
+}
+
+#hero img{
+    margin-top: 100px;
+
+    width: 500px;
+}
+
+
+#volleyball_div{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-color: #10196C;
+
+    height: 100vh;
+}
+
+#fistball_div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #063808;
+
+    height: 100vh;
+}
+
+#fistball_div img{
+    position: relative;
+
+    z-index: 0;
+
+    height: 100%;
+}
+
+#volleyball_div img{
+    position: relative;
+    
+    z-index: 0;
+
+    height: 100%;
+}
+
+.sports_info_card{
+    height: 90%;
+    width: 40%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+    padding: 70px;
+    box-shadow: 0 5px 13px 4px rgba(0, 0, 0, 0.36);;
+
+    z-index: 3;
+
+    color: #fff;
+    font-size: 18px;
+
+    background-color: #033;
+    margin-left: -50px;
+}
+
+.sports_info_card-fist{
+    height: 90%;
+    width: 40%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+    padding: 70px;
+    box-shadow: 0 5px 13px 4px rgba(0, 0, 0, 0.36);
+
+    z-index: 3;
+
+    color: #fff;
+    font-size: 18px;
+
+    background-color: #033;
+    left: 150px;
+}
+
+.sports_info_card-text p{
+    margin-top: 20px;
+    
+    color: #fff;
+    font-size: 16px;
+}
+
+.sports_info_card-text span{
+    font-size: 16px;
+    
+    color: rgb(63, 182, 63);
+}
+
+.sports_info_card button{
+    width: 200px;
+
+    margin-top: 40px;
+
+    border-radius: 0;
+}
+
+.sports_info_card-fist button{
+    width: 200px;
+
+    margin-top: 40px;
+
+    border-radius: 0;
+}

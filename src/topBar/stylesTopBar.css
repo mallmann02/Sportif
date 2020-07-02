@@ -28,6 +28,7 @@
 
     .menu group{
         right: 20px;
+        top: 5px;
         position: absolute;
 
         display: flex;
@@ -68,4 +69,10 @@
         border:1px solid #04fd2e; 
         display:block; 
         width:150px;
+    }
+
+    .menu group h1{
+        font-size: 30px;
+
+        margin-left: 10px;
     }
